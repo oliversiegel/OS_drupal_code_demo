@@ -9,7 +9,7 @@
 This ajax taxonomy form feature could have possibly solved using a plugin/widget, but given the other project specific requirements I used services, blocks, and forms instead.
 
  * The code shown is part of a solution from a patent eligible app which needs to be treated confidentially
- * Seen is a heavily redacted work in progress which still requires some refactoring (a few naming issues).
+ * Seen is a heavily redacted work in progress which still requires some refactoring (mostly naming issues for scalability).
  * Also this module relies heavily on the theme for the app
  * Unfortunately the theme can not be shown, as it would reveal too much about the patent.
  * Also none of the JS/jQuery files can be shown, as they would reveal too much about the patent. But it’s basically a bunch of show/hide/toggle commands attached to the DOM, and everything packaged into various classes and subclasses that mirror the structure of a node (with subsections and actions, as explained below).

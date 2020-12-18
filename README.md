@@ -4,6 +4,9 @@
 
 ## UI to easily add new and existing taxonomy terms from different vocabularies to nodes via AJAX
 
+Goal: Create a UI similar to adding tags on stack overflow, or what’s being planned for future Drupal releases, visualized here:
+https://www.drupal.org/project/drupal/issues/3023298
+
 ### Context & disclaimer:
 
 This ajax taxonomy form feature could have possibly solved using a plugin/widget, but given the other project specific requirements I used services, blocks, and forms instead.
@@ -23,10 +26,6 @@ This ajax taxonomy form feature could have possibly solved using a plugin/widget
 
  * It should be possible to add multiple taxonomy terms using one search field and submit them all with one press of a button. 
  * Also new tags should be created and added in this procedure.
-
-Similar to adding tags on stack overflow, and similar to what’s being planned for future Drupal releases:
-
-https://www.drupal.org/project/drupal/issues/3023298
 
 Requirements are also that this is scalable for multiple different taxonomy vocabularies, and ties in seamlessly with other, similar actions, that constitute the core functionality of the app. (other subsections with actions such as adding other entities to nodes dynamically via AJAX and search)
 

@@ -22,7 +22,7 @@ This ajax taxonomy form feature could have possibly solved using a plugin/widget
  * One of these actions is to make visible a form that allows to add a new taxonomy term to the node in question.
 
  * It should be possible to add multiple taxonomy terms using one search field and submit them all with one press of a button. 
- * Also new tags should be added in this procedure.
+ * Also new tags should be created and added in this procedure.
 
 Similar to adding tags on stack overflow, and similar to what’s being planned for future Drupal releases:
 

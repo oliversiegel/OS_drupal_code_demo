@@ -8,6 +8,7 @@
 
 Create a UI similar to adding tags on stack overflow, or what’s being planned for future Drupal releases, visualized here:
 https://www.drupal.org/project/drupal/issues/3023298
+
 But also enable for other entities to be searchable in this manner, based on various parameters
 
 ### Context & disclaimer:

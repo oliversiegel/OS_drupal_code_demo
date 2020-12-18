@@ -36,11 +36,11 @@ Display and submission of the form is handled through `AjaxTagsForm.php` which r
 
 https://github.com/oliversiegel/OS_drupal_code_demo/blob/main/modules/custom/enolve_ajax_forms_CODE_DEMO/src/Form/AjaxTagsForm.php
 
-To initiate an ajax request, the user navigates to the form to add tags, which submits POST requests onkeyup via JS to the `EntityReferenceController.php`
-
-https://github.com/oliversiegel/OS_drupal_code_demo/blob/main/modules/custom/enolve_ajax_forms_CODE_DEMO/src/Controller/EntityReferenceController.php
+To initiate an ajax request, the user navigates to the form to add tags, which submits POST requests onkeyup via JS to the `EntityReferenceController.php`.
 
 This controller returns JSON which is interpreted by the JS files, so show the appropriate tags in the search form, which has been prepared accordingly.
+
+https://github.com/oliversiegel/OS_drupal_code_demo/blob/main/modules/custom/enolve_ajax_forms_CODE_DEMO/src/Controller/EntityReferenceController.php
 
 To keep things scalable and re-use the "search" function and the `EntityReferenceController.php` also on other actions and entity searches, the form to be displayed will be dynamically generated based on `$params` by `public function getEnolveEntityReferenceForm($params)` located in `EnolveServices.php`.
 

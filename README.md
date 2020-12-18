@@ -32,7 +32,7 @@ Requirements are also that this is scalable for multiple different taxonomy voca
 
 ### How it works:
 
-Display and submission of the form is handled through `AjaxTagsForm.php` which renders the form and does the neccessary ajax actions to display the taxonomy terms on the note after submission.
+Display and submission of the form is handled through `AjaxTagsForm.php` which renders the form and does the neccessary ajax actions to dynamically display the taxonomy terms on the node after submission.
 
 https://github.com/oliversiegel/OS_drupal_code_demo/blob/main/modules/custom/enolve_ajax_forms_CODE_DEMO/src/Form/AjaxTagsForm.php
 

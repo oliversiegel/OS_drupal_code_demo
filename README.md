@@ -4,7 +4,9 @@
 
 ## UI to easily add new and existing taxonomy terms from different vocabularies to nodes via AJAX
 
-Goal: Create a UI similar to adding tags on stack overflow, or what’s being planned for future Drupal releases, visualized here:
+### Goal for project: 
+
+Create a UI similar to adding tags on stack overflow, or what’s being planned for future Drupal releases, visualized here:
 https://www.drupal.org/project/drupal/issues/3023298
 
 ### Context & disclaimer:

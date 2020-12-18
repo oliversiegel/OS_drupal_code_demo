@@ -28,7 +28,7 @@ Similar to adding tags on stack overflow, and similar to what’s being planned 
 
 https://www.drupal.org/project/drupal/issues/3023298
 
-Requirements are also that this is scalable for multiple different taxonomy vocabularies, and ties in seamlessly with other, similar actions, that constitute the core functionality of the app. (other actions and subsections)
+Requirements are also that this is scalable for multiple different taxonomy vocabularies, and ties in seamlessly with other, similar actions, that constitute the core functionality of the app. (other subsections with actions such as adding other entities to nodes dynamically via AJAX and search)
 
 ### How it works:
 

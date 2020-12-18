@@ -1,0 +1,8 @@
+enolve_ajax_forms.entity_reference_search:
+  path: '/entity_reference_search/{search_type}'
+  defaults:
+    _controller: 'Drupal\enolve_ajax_forms\Controller\EntityReferenceController::search'
+    _title: 'Search Entities'
+  methods:  [POST]
+  requirements:
+    _access: 'TRUE'

@@ -1,0 +1,4 @@
+name: Enolve Ajax Forms
+type: module
+core: '8.x'
+description: Submit content via ajax

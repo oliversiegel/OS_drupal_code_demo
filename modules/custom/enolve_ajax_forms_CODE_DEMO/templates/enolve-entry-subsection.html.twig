@@ -1,0 +1,21 @@
+<div class="entry_section_container {{ container_class }}" data-section_name="{{ container_class }}" style="display: none;">
+  <div class="section_header">
+    <span class="header_icons">
+      <div class="h2">
+        <span class="fa-stack fa-1x">
+          <i class="{{ icon_1 }} fa-stack-1x"></i>
+          {% if icon_2 %}
+          <i class="{{ icon_2 }} fa-stack-1x fa-inverse enolve_stacked_icon"></i>
+          {% endif %}
+        </span>
+        <span class="header_count"><span>{% if count == 0 %}no{% else %}{{ count }}{% endif %}</span> {{ label }}</span>
+      </div>
+      {{ header_action }}
+    </span>
+  </div>
+  
+  <div class="section_body" id="{{ section_body_id }}" style="display: none;">
+    {{ section_body }}
+  </div>
+  {{ section_actions }}
+</div>

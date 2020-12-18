@@ -1,0 +1,21 @@
+enolve-ajax-forms:
+  version: 1.0
+  css:
+    theme:
+      css/vendor/OverlayScrollbars.min.css: {}
+  js:
+    js/vendor/jquery.overlayScrollbars.min.js: {}
+    js/classes/EntryManager.js: {}
+    js/classes/Entry.js: {}
+    js/classes/Section.js: {}
+    js/classes/SectionForm.js: {}
+    js/classes/SlideOverlay.js: {}
+    js/enolve-load-and-view.js: {}
+    js/enolve-add-and-edit.js: {}
+    js/enolve-slide-in-overlay.js: {}
+    js/enolve-add-new.js: {}
+    js/enolve-comment.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal.dialog.ajax
+    - core/jquery.form

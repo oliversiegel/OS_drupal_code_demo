@@ -1,0 +1,3 @@
+services:
+  enolve_ajax_forms.services:
+    class: Drupal\enolve_ajax_forms\EnolveServices

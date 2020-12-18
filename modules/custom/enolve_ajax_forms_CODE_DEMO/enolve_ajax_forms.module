@@ -1,0 +1,43 @@
+<?php
+
+use Drupal\node\Entity\Node;
+
+function enolve_ajax_forms_theme($existing, $type, $theme, $path) {
+  return [
+
+    'enolve-entry-subsection' => [
+      'variables' => [
+        'container_class' => NULL,
+        'header_action' => NULL,
+        'icon_1' => NULL,
+        'icon_2' => NULL,
+        'count' => NULL,
+        'label' => NULL,
+        'section_body' => NULL,
+        'section_body_id' => NULL,
+        'section_actions' => NULL,
+      ],
+    ],
+
+    'enolve-entry-subsection-actions' => [
+      'variables' => [
+        'add_form' => NULL,
+        'count' => NULL,
+        'section_name' => NULL,
+        'section_body_id' => NULL,
+        'load_more_button' => NULL,
+        'load_more_url' => NULL,
+        'all_button' => NULL,
+        'total_pages' => NULL,
+        'load_less_button' => NULL,
+        'add_button' => NULL,
+        'add_button_label' => 'add',
+        'show_add_button' => NULL,
+        'show_add_form' => NULL,
+        
+      ],
+    ],
+  ];
+}
+
+

@@ -1,0 +1,21 @@
+<div class="section_actions" style="display: none;"
+  data-section_name="{{ section_name }}"
+  data-section_body_id="{{ section_body_id }}"
+  data-load_more_url="{{ load_more_url }}"
+  data-total_count="{{ count }}"
+  data-total_pages="{{ total_pages }}"
+  data-current_page="-1">
+
+  {% if add_button %}
+    <span class="add_button" {% if show_add_button == false %}style="display: none;"{% endif %}>
+      {{ add_button_label }} <span class="fa-stack fa-1x">
+          <i class="far fa-plus-square fa-stack-1x"></i>
+        </span>
+    </span>  
+  {% endif %}
+</div>
+{% if add_form %}
+<div class="add_form{% if show_add_form %} dont_hide{% endif %}" {% if show_add_form != true %}style="display: none;"{% endif %}>
+  {{ add_form }}
+</div>
+{% endif %}
